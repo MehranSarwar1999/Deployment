@@ -17,7 +17,7 @@ i++;
 return "Yes";
 }
 public static void main(String[] args){
-try{
+try{ 
 ServerSocket ss=new ServerSocket(8888);
 //establishes connection
 Socket s=ss.accept();
